@@ -1,3 +1,6 @@
-let fnam = "Tran Cong Dat";
-
-fnam = 10; 
+function test() {
+    return function (a, b) {
+        console.log("hello");
+    };
+}
+test()();
